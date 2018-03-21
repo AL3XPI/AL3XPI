@@ -1,2 +1,2 @@
 # AL3XPI
-My official website.
+My personal website.
