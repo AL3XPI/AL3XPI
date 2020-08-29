@@ -1,0 +1,53 @@
+/* [THE ENTIRE PAGE] */
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+/* [MAIN-SIDEBAR] */
+#page-wrap {
+  background: #FFDCDC;
+}
+#page-wrap::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#page-main, #page-sidebar {
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#page-main {
+  width: 70%;
+}
+#page-sidebar {
+  width: 30%;
+}
+
+/* [RESPONSIVE] */
+@media all and (max-width: 768px) {
+  #page-main, #page-sidebar {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* [DOES NOT MATTER] */
+html, body {
+  font-family: arial;
+}
+#page-sidebar a {
+  display: block;
+  width: 100%;
+}
+#page-header, #page-footer {
+  padding: 10px;
+  box-sizing: border-box;
+}
+#page-header {
+  background: #E6FFDC;
+}
+#page-footer {
+  background: #DCFFFC;
+}
