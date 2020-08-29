@@ -1,5 +1,6 @@
 body {
-    background-image:url(img/bugatti4k.jpg)
+    background-image:url(img/bugatti4k.jpg);
+    background-size: cover;
   }
   .wrapper1 {
     border: 5px outset black;
