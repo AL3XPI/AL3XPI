@@ -54,6 +54,10 @@ a:hover small {
   color:#777;
 }
 
+.russoone {
+  font-family: 'Russo One', sans-serif;
+}
+
 .wrapper {
   width:860px;
   margin:0 auto;
